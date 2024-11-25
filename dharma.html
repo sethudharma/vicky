@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My Portfolio">
+    <title>Dharma S - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #343a40;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        section {
+            padding: 40px 0;
+            margin: 20px 0;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            margin-bottom: 20px;
+            font-size: 2em;
+            color: #007bff;
+        }
+
+        .profile {
+            text-align: center;
+        }
+
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 100px;
+            object-fit: cover;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .column {
+            flex: 0 0 48%;
+            margin-bottom: 20px;
+        }
+
+        .list {
+            list-style-type: none;
+        }
+
+        .list li {
+            padding: 5px 0;
+        }
+
+        .projects .project-card {
+            background-color: #f1f1f1;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .projects .project-card h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .projects .project-card p {
+            font-size: 1em;
+            color: #555;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>VIGNESH S</h1>
+        <p>Freshers</p>
+    </header>
+
+    <div class="container">
+        <!-- Profile Section -->
+        <section id="profile" class="profile">
+            <img src="/Tharma/portfolio/photo/vicky.jpg">
+            <h2>About Me</h2>
+            <p>Hi, I'm Vignesh S, Recent Mechanical Engineering graduate with a strong foundation in engineering principle, CAD design,thermodynamics,and material science.Proficient in using tools such as Solidworkes,AutoCad create and analyze mechanical systems.Eager tp apply academic knowledge in real-world engineering projects and contribute to inovation solutions.Strong problems-solving skills,attention to detail,and ability to collaborate in team envoirments.Dedicated to continous learning and development to say current with industry trends and technologies.</p>
+        </section>
+    
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Education</h2>
+            <div class="row">
+                <div class="column">
+                    <h3>Bachelor of Mechanical Engineering</h3>
+                    <p>Sri Ranganathar Institute of Engineering and Technology coimbatore with 2021-2025</p>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- Skills Section -->
+        <section id="skills">
+                <div class="column">
+                    <h3>SKILLS</h3>
+                    <ul class="list">
+                        <li>Solidworkes</li>
+                        <li>Autocad</li>
+                        <li>Power point</li>
+                        <li>Excel</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Programming Languages Section -->
+        <section id="languages">
+            <h2>SOFT SKILLS</h2>
+            <div class="row">
+                <div class="column">
+                    <h3>Frontend</h3>
+                    <ul class="list">
+                        <li>Leadership</li>
+                        <li>Time Management</li>
+                        <li>Self-Motivation</li>
+                        <li>Communication</li>
+                        <li>Adaptability</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Internship Section -->
+        <section id="internship">
+            <h2>Internships</h2>
+            <div class="row">
+                <div class="column">
+                    <h3>Technical Intern</h3>
+                    <p>PUMO TECHNOVATION INDIA PVT LTD | 04-07-2023 - 31-07-2023</p>
+                    <p>NLC INDIA LIMITED | 15-07-2024 - 31-07-2024</p>
+                    <ul>
+                        <li>I have successfully completed Autocad internship</li>
+                        <li>I have successfully completed BS1/BS2/BS3 engine analysis </li>
+                       
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>Project 1: Portfolio Website</h3>
+                <p>A personal portfolio website built using HTML, CSS, and JavaScript to showcase my skills and projects.</p>
+                <a href="https://your-portfolio-link.com" class="btn" target="_blank">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Project 2: E-Commerce Website</h3>
+                <p>Developed an e-commerce website using React.js, Node.js, and MongoDB. Integrated payment gateways and product management.</p>
+                <a href="https://your-ecommerce-project.com" class="btn" target="_blank">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Project 3: Blog Application</h3>
+                <p>A full-stack blog application built with Node.js, Express, and MongoDB, allowing users to create, edit, and delete posts.</p>
+                <a href="https://your-blog-project.com" class="btn" target="_blank">View Project</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
